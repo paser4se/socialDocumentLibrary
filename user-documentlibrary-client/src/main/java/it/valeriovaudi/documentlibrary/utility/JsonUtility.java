@@ -42,7 +42,10 @@ public class JsonUtility {
                 case NULL:
                     result = "";
                     break;
-
+                //missing default case
+                default:
+                    // add default case
+                    break;
             }
         }
         return result;
